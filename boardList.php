@@ -201,7 +201,7 @@ $(document).ready(function() {
       success: function(data) {
         alert('게시글이 성공적으로 작성되었습니다.');
         $('#boardInsertModal').modal('hide');
-        location.reload();
+        window.location.reload();
       },
       error: function(error) {
         console.log(error);
